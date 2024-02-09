@@ -1,0 +1,153 @@
+/*Beginning of the first part of the website*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.body-one{
+    background-color: #1f2937;
+    padding: 50px;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    height: 37vh;
+
+}
+
+.hero-main{
+    margin-top: 10vh;
+    margin-bottom: -25vh;
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+} 
+
+.hero-second{
+font-size: 18px;
+color: #e5e7eb;
+margin-top: -11vh;
+}
+
+a:hover{
+    color:#3882f6;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7eb; 
+    text-decoration: none;
+}
+
+ul , li{
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+    gap: 30px;
+    font-size: 18px;
+}
+
+#header-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+
+.logo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   color:white;
+   justify-content: space-between;
+}
+
+.mountain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70vh;
+    padding-top: 10vh;
+}
+
+/* Above this line is the first part of the body
+
+Below this line is the second part of the page*/
+
+
+
+/*I did inline css with the images and the subtext under the images
+that's why this section is so short*/
+.some{
+    text-align: center;
+}
+
+
+
+/*Beginning of quote part of website*/
+.quote-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 40vh;
+}
+
+.quote{
+    display:flex;
+    margin-left: 30vh;
+font-size: 36px;
+color: #1f2937
+}
+
+.thor{
+   display: flex;
+   margin-top: 25vh;
+}
+
+/*Ending of quote part of page
+
+Beginning of blue banner and footer part of the page*/
+
+.blue-banner{
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
+    margin: 150px
+}
+
+.button{
+    display:flex;
+    flex-direction: row;
+justify-content: flex-end;
+   background-color:#3882f6 ; 
+   color: white;
+   border-color: white;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   flex-grow: 0;
+   flex-shrink: 0;
+    background-color: #1f2937;
+    color:white;
+    height: 12vh;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center; 
+    text-align: center;
+   margin: 5vh;
+}
+
+.sign{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/*Ending of page*/
